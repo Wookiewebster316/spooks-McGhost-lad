@@ -17,7 +17,8 @@ public class PlayerMove : MonoBehaviour
     public Animator animator;
 
     private Vector2 move;
-    private Vector2 crouchVector;
+  
+    [SerializeField] private Transform pos;
 
     private void Awake()
     {
@@ -32,9 +33,23 @@ public class PlayerMove : MonoBehaviour
         controls.ControllerGamePlay.crouch.performed += ctx => Crouch_Perfromed();
         controls.ControllerGamePlay.crouch.canceled += ctx => Crouch_Stopped();
 
+        controls.ControllerGamePlay.swing.performed += ctx => SwordSwing(true);
+        controls.ControllerGamePlay.swing.canceled += ctx => SwordSwing(false);
+
+        controls.ControllerGamePlay.fire.performed += ctx => FireBall(true);
+        controls.ControllerGamePlay.fire.canceled += ctx => FireBall(false);
+
 
     }
+    private void SwordSwing(bool swing)
+    {
+        animator.SetBool("swing", swing);
+    }
 
+    private void FireBall(bool shoot)
+    {
+        animator.SetBool("fireOne", shoot);
+    }
     private void OnEnable()
     {
         controls.ControllerGamePlay.Enable();
@@ -53,11 +68,13 @@ public class PlayerMove : MonoBehaviour
     private void Crouch_Perfromed()
     {
         crouch = true;
+        animator.SetBool("crouching", true);
     }
 
     private void Crouch_Stopped()
     {
         crouch = false;
+        animator.SetBool("crouching", false);
     }
 
 
@@ -81,5 +98,10 @@ public class PlayerMove : MonoBehaviour
     private void OnDisable()
     {
         controls.ControllerGamePlay.Disable();
+    }
+
+    public void CreateFireball()
+    {
+        Debug.Log("fire ball fired " + pos.position.ToString());
     }
 }

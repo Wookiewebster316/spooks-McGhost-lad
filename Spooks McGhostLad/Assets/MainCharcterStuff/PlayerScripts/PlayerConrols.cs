@@ -41,6 +41,22 @@ public class @PlayerConrols : IInputActionCollection, IDisposable
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""fire"",
+                    ""type"": ""Button"",
+                    ""id"": ""0f57708c-7a99-47c6-a812-964f8713997a"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""swing"",
+                    ""type"": ""Button"",
+                    ""id"": ""dbba2557-5a73-4871-9bff-93ba157b93c5"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -76,6 +92,28 @@ public class @PlayerConrols : IInputActionCollection, IDisposable
                     ""action"": ""crouch"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""95d17aa9-e331-4d07-8a91-0b99146fe8ac"",
+                    ""path"": ""<Gamepad>/rightTrigger"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""fire"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""a0ef0e7d-42eb-43cf-8ed4-703a2e19403c"",
+                    ""path"": ""<Gamepad>/buttonWest"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""swing"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -87,6 +125,8 @@ public class @PlayerConrols : IInputActionCollection, IDisposable
         m_ControllerGamePlay_jump = m_ControllerGamePlay.FindAction("jump", throwIfNotFound: true);
         m_ControllerGamePlay_walk = m_ControllerGamePlay.FindAction("walk", throwIfNotFound: true);
         m_ControllerGamePlay_crouch = m_ControllerGamePlay.FindAction("crouch", throwIfNotFound: true);
+        m_ControllerGamePlay_fire = m_ControllerGamePlay.FindAction("fire", throwIfNotFound: true);
+        m_ControllerGamePlay_swing = m_ControllerGamePlay.FindAction("swing", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -139,6 +179,8 @@ public class @PlayerConrols : IInputActionCollection, IDisposable
     private readonly InputAction m_ControllerGamePlay_jump;
     private readonly InputAction m_ControllerGamePlay_walk;
     private readonly InputAction m_ControllerGamePlay_crouch;
+    private readonly InputAction m_ControllerGamePlay_fire;
+    private readonly InputAction m_ControllerGamePlay_swing;
     public struct ControllerGamePlayActions
     {
         private @PlayerConrols m_Wrapper;
@@ -146,6 +188,8 @@ public class @PlayerConrols : IInputActionCollection, IDisposable
         public InputAction @jump => m_Wrapper.m_ControllerGamePlay_jump;
         public InputAction @walk => m_Wrapper.m_ControllerGamePlay_walk;
         public InputAction @crouch => m_Wrapper.m_ControllerGamePlay_crouch;
+        public InputAction @fire => m_Wrapper.m_ControllerGamePlay_fire;
+        public InputAction @swing => m_Wrapper.m_ControllerGamePlay_swing;
         public InputActionMap Get() { return m_Wrapper.m_ControllerGamePlay; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -164,6 +208,12 @@ public class @PlayerConrols : IInputActionCollection, IDisposable
                 @crouch.started -= m_Wrapper.m_ControllerGamePlayActionsCallbackInterface.OnCrouch;
                 @crouch.performed -= m_Wrapper.m_ControllerGamePlayActionsCallbackInterface.OnCrouch;
                 @crouch.canceled -= m_Wrapper.m_ControllerGamePlayActionsCallbackInterface.OnCrouch;
+                @fire.started -= m_Wrapper.m_ControllerGamePlayActionsCallbackInterface.OnFire;
+                @fire.performed -= m_Wrapper.m_ControllerGamePlayActionsCallbackInterface.OnFire;
+                @fire.canceled -= m_Wrapper.m_ControllerGamePlayActionsCallbackInterface.OnFire;
+                @swing.started -= m_Wrapper.m_ControllerGamePlayActionsCallbackInterface.OnSwing;
+                @swing.performed -= m_Wrapper.m_ControllerGamePlayActionsCallbackInterface.OnSwing;
+                @swing.canceled -= m_Wrapper.m_ControllerGamePlayActionsCallbackInterface.OnSwing;
             }
             m_Wrapper.m_ControllerGamePlayActionsCallbackInterface = instance;
             if (instance != null)
@@ -177,6 +227,12 @@ public class @PlayerConrols : IInputActionCollection, IDisposable
                 @crouch.started += instance.OnCrouch;
                 @crouch.performed += instance.OnCrouch;
                 @crouch.canceled += instance.OnCrouch;
+                @fire.started += instance.OnFire;
+                @fire.performed += instance.OnFire;
+                @fire.canceled += instance.OnFire;
+                @swing.started += instance.OnSwing;
+                @swing.performed += instance.OnSwing;
+                @swing.canceled += instance.OnSwing;
             }
         }
     }
@@ -186,5 +242,7 @@ public class @PlayerConrols : IInputActionCollection, IDisposable
         void OnJump(InputAction.CallbackContext context);
         void OnWalk(InputAction.CallbackContext context);
         void OnCrouch(InputAction.CallbackContext context);
+        void OnFire(InputAction.CallbackContext context);
+        void OnSwing(InputAction.CallbackContext context);
     }
 }
