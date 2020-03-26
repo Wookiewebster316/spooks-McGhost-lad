@@ -1,0 +1,71 @@
+{
+    "name": "PlayerConrols",
+    "maps": [
+        {
+            "name": "ControllerGamePlay",
+            "id": "521ab375-9f84-4ce2-a471-a0293b3c24d4",
+            "actions": [
+                {
+                    "name": "jump",
+                    "type": "Button",
+                    "id": "1e87b24d-f622-4b56-89e9-a75907f63d70",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "walk",
+                    "type": "Button",
+                    "id": "6dad1992-d57e-4f52-8c51-e00b87f1ef4d",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "crouch",
+                    "type": "Button",
+                    "id": "487271e1-fd92-4690-97eb-4336f9ea0f8f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9a55e62a-e5cb-44df-a0fb-b8e6c1d44905",
+                    "path": "<DualShockGamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "17284696-da97-47a3-80fa-cdaa0267d5ce",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "walk",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b577b3f2-8351-45fe-aa98-e8d41d1eff82",
+                    "path": "<DualShockGamepad>/rightStick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "crouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
