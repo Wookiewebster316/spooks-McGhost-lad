@@ -9,11 +9,12 @@ public class PlayerMove : MonoBehaviour
 
     private PlayerConrols controls;
     private float horizontalMove = 0;
+    private float gravityCopy;
 
     public float runSpeed = 40;
 
-    private float rechargeTime = 2.0f;
-    private float time = 0;
+    private int rechargeTime = 2;
+    private int time = 0;
 
     private bool jump = false;
     private bool crouch = false;
@@ -24,6 +25,7 @@ public class PlayerMove : MonoBehaviour
   
     [SerializeField] private Transform spawnPoint;
     [SerializeField] private GameObject fireballPrefab;
+    [SerializeField] private Rigidbody2D player_Rigidbody2D;
 
     private void Awake()
     {
@@ -48,11 +50,17 @@ public class PlayerMove : MonoBehaviour
 
 
     }
+
+    private void Start()
+    {
+        gravityCopy = player_Rigidbody2D.gravityScale;
+    }
     public void MidAnimation(int boolSub)
     {
         if (boolSub == 0)
         {
             controls.ControllerGamePlay.Enable();
+            player_Rigidbody2D.IsAwake();
         }
         else if (boolSub == 1)
         {
@@ -67,11 +75,13 @@ public class PlayerMove : MonoBehaviour
     private void SwordSwing(bool swing)
     {
         animator.SetBool("swing", swing);
+        player_Rigidbody2D.IsSleeping();
     }
 
     private void FireBall(bool shoot)
     {
         animator.SetBool("fireOne", shoot);
+        player_Rigidbody2D.IsSleeping();
     }
     private void OnEnable()
     {
@@ -109,12 +119,6 @@ public class PlayerMove : MonoBehaviour
     {
         horizontalMove = move.x * runSpeed;
         animator.SetFloat("speed", Mathf.Abs(horizontalMove));
-
-        if (time < rechargeTime)
-        {
-            time += Time.deltaTime;
-        }
-
     }
     public void OnLand()
     {
@@ -135,6 +139,5 @@ public class PlayerMove : MonoBehaviour
     {
         GameObject fireball = Instantiate(fireballPrefab, spawnPoint.transform.position, Quaternion.identity);
         fireball.GetComponent<MoveFireball>().SetDirection(transform.localScale.x);
-       
     }
 }
