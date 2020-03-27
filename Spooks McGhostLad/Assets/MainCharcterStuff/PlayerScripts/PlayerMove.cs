@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class PlayerMove : MonoBehaviour
@@ -11,6 +12,9 @@ public class PlayerMove : MonoBehaviour
 
     public float runSpeed = 40;
 
+    private float rechargeTime = 2.0f;
+    private float time = 0;
+
     private bool jump = false;
     private bool crouch = false;
 
@@ -18,14 +22,16 @@ public class PlayerMove : MonoBehaviour
 
     private Vector2 move;
   
-    [SerializeField] private Transform pos;
+    [SerializeField] private Transform spawnPoint;
+    [SerializeField] private GameObject fireballPrefab;
 
     private void Awake()
     {
+       
         controls = new PlayerConrols();
 
-        controls.ControllerGamePlay.jump.started += context => Jump_performed();
-        controls.ControllerGamePlay.jump.canceled += context => Jump_Stopped();
+        controls.ControllerGamePlay.jump.started += context => Jump_performed(true);
+        controls.ControllerGamePlay.jump.canceled += context => Jump_performed(false);
 
         controls.ControllerGamePlay.walk.performed += ctx => move = ctx.ReadValue<Vector2>();
         controls.ControllerGamePlay.walk.canceled += ctx => move = Vector2.zero;
@@ -35,10 +41,27 @@ public class PlayerMove : MonoBehaviour
 
         controls.ControllerGamePlay.swing.performed += ctx => SwordSwing(true);
         controls.ControllerGamePlay.swing.canceled += ctx => SwordSwing(false);
+        
 
         controls.ControllerGamePlay.fire.performed += ctx => FireBall(true);
         controls.ControllerGamePlay.fire.canceled += ctx => FireBall(false);
 
+
+    }
+    public void MidAnimation(int boolSub)
+    {
+        if (boolSub == 0)
+        {
+            controls.ControllerGamePlay.Enable();
+        }
+        else if (boolSub == 1)
+        {
+            controls.ControllerGamePlay.Disable();
+        }
+    }
+
+    public void Jumping(bool jumping)
+    {
 
     }
     private void SwordSwing(bool swing)
@@ -55,16 +78,19 @@ public class PlayerMove : MonoBehaviour
         controls.ControllerGamePlay.Enable();
     }
 
-    private void Jump_performed()
+    private void Jump_performed(bool buttonPressed)
     {
-        jump = true;
-        animator.SetBool("jumping", jump);
+        if (buttonPressed)
+        {
+            jump = buttonPressed;
+            animator.SetBool("jumping", jump);
+        }
+        else
+        {
+            jump = false;
+        }
+       
     }
-    private void Jump_Stopped()
-    {
-        jump = false;
-    }
-
     private void Crouch_Perfromed()
     {
         crouch = true;
@@ -84,6 +110,11 @@ public class PlayerMove : MonoBehaviour
         horizontalMove = move.x * runSpeed;
         animator.SetFloat("speed", Mathf.Abs(horizontalMove));
 
+        if (time < rechargeTime)
+        {
+            time += Time.deltaTime;
+        }
+
     }
     public void OnLand()
     {
@@ -102,6 +133,8 @@ public class PlayerMove : MonoBehaviour
 
     public void CreateFireball()
     {
-        Debug.Log("fire ball fired " + pos.position.ToString());
+        GameObject fireball = Instantiate(fireballPrefab, spawnPoint.transform.position, Quaternion.identity);
+        fireball.GetComponent<MoveFireball>().SetDirection(transform.localScale.x);
+       
     }
 }
