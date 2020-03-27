@@ -13,9 +13,6 @@ public class PlayerMove : MonoBehaviour
 
     public float runSpeed = 40;
 
-    private int rechargeTime = 2;
-    private int time = 0;
-
     private bool jump = false;
     private bool crouch = false;
 
@@ -74,13 +71,13 @@ public class PlayerMove : MonoBehaviour
     }
     private void SwordSwing(bool swing)
     {
-        animator.SetBool("swing", swing);
+        animator.SetTrigger("swordswing");
         player_Rigidbody2D.IsSleeping();
     }
 
     private void FireBall(bool shoot)
     {
-        animator.SetBool("fireOne", shoot);
+        animator.SetTrigger("fireball");
         player_Rigidbody2D.IsSleeping();
     }
     private void OnEnable()
