@@ -1,0 +1,4567 @@
+fileFormatVersion: 2
+guid: 39a468415f400714db62894d7bbc61c0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5370806556448485905
+    second: idle_0
+  - first:
+      213: 4782475776233876420
+    second: idle_1
+  - first:
+      213: -6484638366942334608
+    second: idle_2
+  - first:
+      213: -8890879053082126841
+    second: idle_3
+  - first:
+      213: -6986275859334372350
+    second: idle_4
+  - first:
+      213: -1495335860596100338
+    second: idle_5
+  - first:
+      213: 5044002398942245976
+    second: SpooksSpriteSheet_6
+  - first:
+      213: 6075252916851884671
+    second: SpooksSpriteSheet_7
+  - first:
+      213: -2664557911541613485
+    second: SpooksSpriteSheet_8
+  - first:
+      213: 8362776087109514833
+    second: SpooksSpriteSheet_9
+  - first:
+      213: -7962061666347330158
+    second: SpooksSpriteSheet_10
+  - first:
+      213: -1515702367355949858
+    second: SpooksSpriteSheet_11
+  - first:
+      213: 8091212847404570757
+    second: SpooksSpriteSheet_12
+  - first:
+      213: -7847228722034740182
+    second: SpooksSpriteSheet_13
+  - first:
+      213: 8886472376764736313
+    second: SpooksSpriteSheet_14
+  - first:
+      213: -8298793568995716251
+    second: SpooksSpriteSheet_15
+  - first:
+      213: 8612428383721554918
+    second: SpooksSpriteSheet_16
+  - first:
+      213: 643509456988471696
+    second: SpooksSpriteSheet_17
+  - first:
+      213: -393612745774777470
+    second: SpooksSpriteSheet_18
+  - first:
+      213: 728991953845610441
+    second: SpooksSpriteSheet_19
+  - first:
+      213: -2620402905181489566
+    second: SpooksSpriteSheet_20
+  - first:
+      213: -4860396892082500668
+    second: SpooksSpriteSheet_21
+  - first:
+      213: -406736413775600812
+    second: SpooksSpriteSheet_22
+  - first:
+      213: -4584561094059036191
+    second: SpooksSpriteSheet_23
+  - first:
+      213: 5945063754512169216
+    second: walk_0
+  - first:
+      213: 5168108211134302611
+    second: walk_1
+  - first:
+      213: -9162880431060328335
+    second: walk_3
+  - first:
+      213: -4883621729277407913
+    second: walk_4
+  - first:
+      213: -4129770091147057594
+    second: walk_5
+  - first:
+      213: -501607629115808575
+    second: walk_6
+  - first:
+      213: 3605234765472299144
+    second: doorwalk_0
+  - first:
+      213: 8969893497883081302
+    second: doorwalk_1
+  - first:
+      213: 3271276066423020551
+    second: doorwalk_3
+  - first:
+      213: 934010832164127621
+    second: doorwalk_4
+  - first:
+      213: 4759153702163818857
+    second: doorwalk_5
+  - first:
+      213: -8479941971801541806
+    second: doorwalk_6
+  - first:
+      213: 3732946851867896499
+    second: SpooksSpriteSheet_36
+  - first:
+      213: -8585883713875201932
+    second: SpooksSpriteSheet_37
+  - first:
+      213: 7899423620277382775
+    second: SpooksSpriteSheet_38
+  - first:
+      213: -2630341119717944850
+    second: SpooksSpriteSheet_39
+  - first:
+      213: 8380024698440179229
+    second: SpooksSpriteSheet_40
+  - first:
+      213: 5397770446398788846
+    second: SpooksSpriteSheet_41
+  - first:
+      213: -3225136181969426804
+    second: SpooksSpriteSheet_42
+  - first:
+      213: -4743583978529952243
+    second: SpooksSpriteSheet_43
+  - first:
+      213: 6602048308330155710
+    second: SpooksSpriteSheet_44
+  - first:
+      213: -2163997111343032161
+    second: SpooksSpriteSheet_45
+  - first:
+      213: 5196368868128442807
+    second: SpooksSpriteSheet_46
+  - first:
+      213: 3200257526696339365
+    second: SpooksSpriteSheet_47
+  - first:
+      213: 1252706148467948256
+    second: SpooksSpriteSheet_48
+  - first:
+      213: 6356870459132856884
+    second: SpooksSpriteSheet_49
+  - first:
+      213: 5915887671801493832
+    second: fireBall_0
+  - first:
+      213: -3682312897928117463
+    second: fireBall_1
+  - first:
+      213: 4070168038519804207
+    second: fireBall_2
+  - first:
+      213: -1261670635243822030
+    second: fireBall_3
+  - first:
+      213: 7652221967377438756
+    second: SpooksSpriteSheet_54
+  - first:
+      213: -1971568883378737563
+    second: SpooksSpriteSheet_55
+  - first:
+      213: -8269899531913807991
+    second: SpooksSpriteSheet_56
+  - first:
+      213: 4438902360935816478
+    second: SpooksSpriteSheet_57
+  - first:
+      213: 8254427839110327718
+    second: SpooksSpriteSheet_58
+  - first:
+      213: 6408882463032985678
+    second: SpooksSpriteSheet_59
+  - first:
+      213: 1929573668754390696
+    second: SpooksSpriteSheet_60
+  - first:
+      213: 5099466912150620755
+    second: SpooksSpriteSheet_61
+  - first:
+      213: 5009139647110540911
+    second: SpooksSpriteSheet_62
+  - first:
+      213: -7736795722201127272
+    second: SpooksSpriteSheet_63
+  - first:
+      213: -9198318602953640737
+    second: SpooksSpriteSheet_64
+  - first:
+      213: 9159647407037236413
+    second: SpooksSpriteSheet_65
+  - first:
+      213: 997087213361684813
+    second: SpooksSpriteSheet_66
+  - first:
+      213: -8210267725716178784
+    second: SpooksSpriteSheet_67
+  - first:
+      213: 3460997269825521996
+    second: SpooksSpriteSheet_68
+  - first:
+      213: -509114191357419117
+    second: SpooksSpriteSheet_69
+  - first:
+      213: 1155634213977159537
+    second: SpooksSpriteSheet_70
+  - first:
+      213: 396610349803826979
+    second: SpooksSpriteSheet_71
+  - first:
+      213: -3954088435044419138
+    second: SpooksSpriteSheet_72
+  - first:
+      213: 5895766158059701023
+    second: SpooksSpriteSheet_73
+  - first:
+      213: 3287641717920840336
+    second: SpooksSpriteSheet_74
+  - first:
+      213: -608126927861274350
+    second: SpooksSpriteSheet_75
+  - first:
+      213: -2577411878519416021
+    second: SpooksSpriteSheet_76
+  - first:
+      213: 5432311940478601165
+    second: SpooksSpriteSheet_77
+  - first:
+      213: -54107900674159691
+    second: SpooksSpriteSheet_78
+  - first:
+      213: 2353701151664188136
+    second: SpooksSpriteSheet_79
+  - first:
+      213: 7881572419262878152
+    second: SpooksSpriteSheet_80
+  - first:
+      213: -6671100728609278183
+    second: SpooksSpriteSheet_81
+  - first:
+      213: -3071373412272938882
+    second: SpooksSpriteSheet_82
+  - first:
+      213: -2215610318274795685
+    second: SpooksSpriteSheet_83
+  - first:
+      213: -4850585825918486294
+    second: SpooksSpriteSheet_84
+  - first:
+      213: 6638750527120259082
+    second: SpooksSpriteSheet_85
+  - first:
+      213: 8018849886266179963
+    second: SpooksSpriteSheet_86
+  - first:
+      213: -955721828922744067
+    second: SpooksSpriteSheet_87
+  - first:
+      213: 2789093888751610933
+    second: SpooksSpriteSheet_88
+  - first:
+      213: 4960356814590022996
+    second: SpooksSpriteSheet_89
+  - first:
+      213: 1890508777058493083
+    second: SpooksSpriteSheet_90
+  - first:
+      213: -8359394157227863664
+    second: SpooksSpriteSheet_91
+  - first:
+      213: 5457946740560862980
+    second: SpooksSpriteSheet_92
+  - first:
+      213: -1760692071039658718
+    second: SpooksSpriteSheet_93
+  - first:
+      213: -4729009711523284233
+    second: SpooksSpriteSheet_94
+  - first:
+      213: -8456215908817821708
+    second: SpooksSpriteSheet_95
+  - first:
+      213: 8391458875777372733
+    second: SpooksSpriteSheet_96
+  - first:
+      213: -1290330556543126124
+    second: SpooksSpriteSheet_97
+  - first:
+      213: 3210649115704055836
+    second: SpooksSpriteSheet_98
+  - first:
+      213: 5976486692178650576
+    second: SpooksSpriteSheet_99
+  - first:
+      213: -7861775100344261406
+    second: SpooksSpriteSheet_100
+  - first:
+      213: 3660095055975446290
+    second: SpooksSpriteSheet_101
+  - first:
+      213: -7612093792892054544
+    second: SpooksSpriteSheet_102
+  - first:
+      213: -493310043671983576
+    second: SpooksSpriteSheet_103
+  - first:
+      213: 8253122463731617696
+    second: SpooksSpriteSheet_104
+  - first:
+      213: -4529710868446260919
+    second: SpooksSpriteSheet_105
+  - first:
+      213: 874202321586696702
+    second: SpooksSpriteSheet_106
+  - first:
+      213: -2749402546563689952
+    second: SpooksSpriteSheet_107
+  - first:
+      213: 5424580184074178179
+    second: SpooksSpriteSheet_108
+  - first:
+      213: -5357106096674633888
+    second: SpooksSpriteSheet_109
+  - first:
+      213: -2074729700108611713
+    second: SpooksSpriteSheet_110
+  - first:
+      213: -6104128461772984122
+    second: SpooksSpriteSheet_111
+  - first:
+      213: -7218432596583892334
+    second: SpooksSpriteSheet_112
+  - first:
+      213: -8427799178064275564
+    second: SpooksSpriteSheet_113
+  - first:
+      213: 3415051850414000087
+    second: SpooksSpriteSheet_114
+  - first:
+      213: 6421962293864851463
+    second: SpooksSpriteSheet_115
+  - first:
+      213: -8376240399317420892
+    second: SpooksSpriteSheet_116
+  - first:
+      213: -4816843200903532489
+    second: SpooksSpriteSheet_117
+  - first:
+      213: -9133553430619047371
+    second: SpooksSpriteSheet_118
+  - first:
+      213: 7445871768817045658
+    second: SpooksSpriteSheet_119
+  - first:
+      213: -1564791467658939248
+    second: SpooksSpriteSheet_120
+  - first:
+      213: 267728643428929427
+    second: SpooksSpriteSheet_121
+  - first:
+      213: -4154657192038792109
+    second: SpooksSpriteSheet_122
+  - first:
+      213: -999747962127221710
+    second: SpooksSpriteSheet_123
+  - first:
+      213: 2132352000989446661
+    second: jump_0
+  - first:
+      213: 5372496192267488464
+    second: jump_1
+  - first:
+      213: 8481193467698080847
+    second: jump_2
+  - first:
+      213: -579354466115027985
+    second: SpooksSpriteSheet_127
+  - first:
+      213: 2344423431320686484
+    second: SpooksSpriteSheet_128
+  - first:
+      213: 8214847426388473276
+    second: SpooksSpriteSheet_129
+  - first:
+      213: -5266379085076766942
+    second: jump_3
+  - first:
+      213: -5072965388891607453
+    second: SpooksSpriteSheet_131
+  - first:
+      213: 6989082084173136906
+    second: SpooksSpriteSheet_132
+  - first:
+      213: 4150539123265035570
+    second: SpooksSpriteSheet_133
+  - first:
+      213: -7539406220547455378
+    second: SpooksSpriteSheet_134
+  - first:
+      213: 8990707377065826755
+    second: SpooksSpriteSheet_135
+  - first:
+      213: -1237256446773221199
+    second: SpooksSpriteSheet_136
+  - first:
+      213: 2316073012456315615
+    second: SpooksSpriteSheet_137
+  - first:
+      213: 3929561536285979926
+    second: rest
+  - first:
+      213: -5388634609110723820
+    second: SpooksSpriteSheet_139
+  - first:
+      213: -7937577020375538469
+    second: SpooksSpriteSheet_140
+  - first:
+      213: -1365224701358109373
+    second: SpooksSpriteSheet_141
+  - first:
+      213: -2901172102214921100
+    second: SpooksSpriteSheet_142
+  - first:
+      213: -2696354910178016240
+    second: SpooksSpriteSheet_143
+  - first:
+      213: -8745135386466313376
+    second: SpooksSpriteSheet_144
+  - first:
+      213: 628171493922151104
+    second: SpooksSpriteSheet_145
+  - first:
+      213: 1387989685124218030
+    second: SpooksSpriteSheet_146
+  - first:
+      213: -2015146985510904761
+    second: SpooksSpriteSheet_147
+  - first:
+      213: 1097963650759464574
+    second: SpooksSpriteSheet_148
+  - first:
+      213: -8483043481707671286
+    second: SpooksSpriteSheet_149
+  - first:
+      213: 4930920549313136187
+    second: SpooksSpriteSheet_150
+  - first:
+      213: -649424961954823539
+    second: SpooksSpriteSheet_151
+  - first:
+      213: 2302532836985170067
+    second: SpooksSpriteSheet_152
+  - first:
+      213: 6807185269676901078
+    second: SpooksSpriteSheet_153
+  - first:
+      213: -4933760841499617187
+    second: SpooksSpriteSheet_154
+  - first:
+      213: 639343813509624313
+    second: SpooksSpriteSheet_155
+  - first:
+      213: -1121562484388466542
+    second: SpooksSpriteSheet_156
+  - first:
+      213: 4152162164344949282
+    second: SpooksSpriteSheet_157
+  - first:
+      213: 5875890754166120213
+    second: SpooksSpriteSheet_158
+  - first:
+      213: 4578696105245282743
+    second: SpooksSpriteSheet_159
+  - first:
+      213: -7810357831364949458
+    second: SpooksSpriteSheet_160
+  - first:
+      213: -943368422608006249
+    second: SpooksSpriteSheet_161
+  - first:
+      213: -6399288574604139575
+    second: SpooksSpriteSheet_162
+  - first:
+      213: 3532707430855470012
+    second: SpooksSpriteSheet_163
+  - first:
+      213: -824561076712544881
+    second: SpooksSpriteSheet_164
+  - first:
+      213: -7533340551241536680
+    second: SpooksSpriteSheet_165
+  - first:
+      213: 1551221625344523818
+    second: SpooksSpriteSheet_166
+  - first:
+      213: 3361693925572180871
+    second: SpooksSpriteSheet_167
+  - first:
+      213: -5538630908228396610
+    second: SpooksSpriteSheet_168
+  - first:
+      213: 7896327201151452831
+    second: SpooksSpriteSheet_169
+  - first:
+      213: -7799112637859294270
+    second: SpooksSpriteSheet_170
+  - first:
+      213: 1807234937104291962
+    second: SpooksSpriteSheet_171
+  - first:
+      213: -3149412191908220359
+    second: SpooksSpriteSheet_172
+  - first:
+      213: 5540536321600342800
+    second: SpooksSpriteSheet_173
+  - first:
+      213: -1474567060389409134
+    second: SpooksSpriteSheet_174
+  - first:
+      213: 8804253617622215485
+    second: SpooksSpriteSheet_175
+  - first:
+      213: -5427342891812472068
+    second: SpooksSpriteSheet_176
+  - first:
+      213: 3347545394680252921
+    second: SpooksSpriteSheet_177
+  - first:
+      213: 2293430520717247364
+    second: SpooksSpriteSheet_178
+  - first:
+      213: -7747379713898863088
+    second: SpooksSpriteSheet_179
+  - first:
+      213: -3766030344214962208
+    second: SpooksSpriteSheet_180
+  - first:
+      213: -4083645224038985658
+    second: SpooksSpriteSheet_181
+  - first:
+      213: -2841075968225452069
+    second: SpooksSpriteSheet_182
+  - first:
+      213: -5642594232877418890
+    second: SpooksSpriteSheet_183
+  - first:
+      213: -2196263662525582137
+    second: SpooksSpriteSheet_184
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: idle_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2458
+        width: 117
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112737a7b10f88a40800000000000000
+      internalID: 5370806556448485905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 2458
+        width: 112
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cba45d3164ce5240800000000000000
+      internalID: 4782475776233876420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_2
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 2458
+        width: 107
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071788923cfe106a0800000000000000
+      internalID: -6484638366942334608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_3
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 2458
+        width: 105
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 706141c6b904d9480800000000000000
+      internalID: -8890879053082126841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_4
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 2458
+        width: 107
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204ec7dee13cb0f90800000000000000
+      internalID: -6986275859334372350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_5
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 2458
+        width: 112
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03344915ff7f3be0800000000000000
+      internalID: -1495335860596100338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 2598
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 854bb232575eff540800000000000000
+      internalID: 5044002398942245976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 2596
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72cc9df652af4450800000000000000
+      internalID: 6075252916851884671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 2596
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35cfa1762b6950bd0800000000000000
+      internalID: -2664557911541613485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 2458
+        width: 159
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1563b481b8c8e0470800000000000000
+      internalID: 8362776087109514833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 2458
+        width: 104
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295dc996913118190800000000000000
+      internalID: -7962061666347330158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 2458
+        width: 124
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edca7883ab427fae0800000000000000
+      internalID: -1515702367355949858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 2458
+        width: 105
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58850a33733c94070800000000000000
+      internalID: 8091212847404570757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 2458
+        width: 104
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2470efbd0b091390800000000000000
+      internalID: -7847228722034740182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 2601
+        width: 229
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933226b4b87135b70800000000000000
+      internalID: 8886472376764736313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 2458
+        width: 104
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563d6b7c733c4dc80800000000000000
+      internalID: -8298793568995716251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 2602
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e307310cfd758770800000000000000
+      internalID: 8612428383721554918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 2598
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091076111743ee800800000000000000
+      internalID: 643509456988471696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 2557
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b370d0b4b998af0800000000000000
+      internalID: -393612745774777470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 2557
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c7e515d156ed1a00800000000000000
+      internalID: 728991953845610441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 2557
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2667144f07572abd0800000000000000
+      internalID: -2620402905181489566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 2567
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb820437c66c8cb0800000000000000
+      internalID: -4860396892082500668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 2566
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45360bbf26bfa5af0800000000000000
+      internalID: -406736413775600812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 2570
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1f88999fd5060c0800000000000000
+      internalID: -4584561094059036191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2271
+        width: 82
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0097fb68cfb118250800000000000000
+      internalID: 5945063754512169216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_1
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 2275
+        width: 92
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3998075490fc8b740800000000000000
+      internalID: 5168108211134302611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_3
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 2277
+        width: 78
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17065438bc8e6d080800000000000000
+      internalID: -9162880431060328335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_4
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 2278
+        width: 76
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d8a0969e3e93cb0800000000000000
+      internalID: -4883621729277407913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_5
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 2280
+        width: 87
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646a5298bfb10b6c0800000000000000
+      internalID: -4129770091147057594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_6
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 2268
+        width: 94
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c42de9d48ee909f0800000000000000
+      internalID: -501607629115808575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorwalk_0
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 2280
+        width: 72
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8887dd7faed580230800000000000000
+      internalID: 3605234765472299144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorwalk_1
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 2281
+        width: 93
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a386e9c967b7c70800000000000000
+      internalID: 8969893497883081302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorwalk_3
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 2277
+        width: 99
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c916d1048e56d20800000000000000
+      internalID: 3271276066423020551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorwalk_4
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 2285
+        width: 79
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583828b37e546fc00800000000000000
+      internalID: 934010832164127621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorwalk_5
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 2284
+        width: 72
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969a5f8b319eb0240800000000000000
+      internalID: 4759153702163818857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorwalk_6
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 2281
+        width: 71
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253f7de84b1315a80800000000000000
+      internalID: -8479941971801541806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2088
+        width: 90
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3baaffe32671ec330800000000000000
+      internalID: 3732946851867896499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 2077
+        width: 75
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47038af8040d8d880800000000000000
+      internalID: -8585883713875201932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 2075
+        width: 80
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ea6f00ee360ad60800000000000000
+      internalID: 7899423620277382775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 2128
+        width: 26
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee1db1110b62f7bd0800000000000000
+      internalID: -2630341119717944850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 2081
+        width: 77
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ed68f5014db4470800000000000000
+      internalID: 8380024698440179229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 2138
+        width: 52
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee493b45f9bb8ea40800000000000000
+      internalID: 5397770446398788846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 2081
+        width: 81
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c86e371eab30e33d0800000000000000
+      internalID: -3225136181969426804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 2069
+        width: 87
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0eec7d01876b2eb0800000000000000
+      internalID: -4743583978529952243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 2073
+        width: 70
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebeccff05ff2f9b50800000000000000
+      internalID: 6602048308330155710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 2084
+        width: 78
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f985d63b710f7f1e0800000000000000
+      internalID: -2163997111343032161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 2082
+        width: 77
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9c1ba34f53d1840800000000000000
+      internalID: 5196368868128442807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 2083
+        width: 70
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7618cc349996c20800000000000000
+      internalID: 3200257526696339365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 2079
+        width: 69
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea316bda91826110800000000000000
+      internalID: 1252706148467948256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 2081
+        width: 73
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ac9cf9004283850800000000000000
+      internalID: 6356870459132856884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireBall_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1876
+        width: 72
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84937d86e74791250800000000000000
+      internalID: 5915887671801493832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireBall_1
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1876
+        width: 76
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923c727ddebc5ecc0800000000000000
+      internalID: -3682312897928117463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireBall_2
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1884
+        width: 77
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f211f1034442c7830800000000000000
+      internalID: 4070168038519804207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireBall_3
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1884
+        width: 76
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23420caed35ad7ee0800000000000000
+      internalID: -1261670635243822030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 1880
+        width: 69
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42819fb0657223a60800000000000000
+      internalID: 7652221967377438756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1881
+        width: 73
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e2fffdb8493a4e0800000000000000
+      internalID: -1971568883378737563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 1888
+        width: 79
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987bb18013a6b3d80800000000000000
+      internalID: -8269899531913807991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 1889
+        width: 71
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1dd830dd262a9d30800000000000000
+      internalID: 4438902360935816478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1693
+        width: 94
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad2446c26e9d8270800000000000000
+      internalID: 8254427839110327718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1691
+        width: 95
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48cf48f4ace0f850800000000000000
+      internalID: 6408882463032985678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1690
+        width: 108
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae7d06470937ca10800000000000000
+      internalID: 1929573668754390696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 1690
+        width: 104
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a88927322f4c640800000000000000
+      internalID: 5099466912150620755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 1686
+        width: 88
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e695038f9048540800000000000000
+      internalID: 5009139647110540911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 1685
+        width: 91
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896a07e284161a490800000000000000
+      internalID: -7736795722201127272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1687
+        width: 105
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4b41427f1095080800000000000000
+      internalID: -9198318602953640737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 1686
+        width: 101
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4484c69ca9d1f70800000000000000
+      internalID: 9159647407037236413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1509
+        width: 88
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41e18aa98d56dd00800000000000000
+      internalID: 997087213361684813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1509
+        width: 89
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a835d9d0054f0e80800000000000000
+      internalID: -8210267725716178784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 1510
+        width: 81
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c490c840eaee70030800000000000000
+      internalID: 3460997269825521996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1510
+        width: 81
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 391e70227534fe8f0800000000000000
+      internalID: -509114191357419117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 1553
+        width: 58
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177756ed133a90010800000000000000
+      internalID: 1155634213977159537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_71
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1549
+        width: 53
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32fec46030b018500800000000000000
+      internalID: 396610349803826979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_72
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 1510
+        width: 89
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb972ba94814029c0800000000000000
+      internalID: -3954088435044419138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 1511
+        width: 95
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f130be96518f1d150800000000000000
+      internalID: 5895766158059701023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_74
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 1510
+        width: 79
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a3d6949bc00ad20800000000000000
+      internalID: 3287641717920840336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_75
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 1510
+        width: 80
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 219aa76f7cf7f87f0800000000000000
+      internalID: -608126927861274350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_76
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 1553
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b5afc5d813b3cd0800000000000000
+      internalID: -2577411878519416021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_77
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 1555
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc70751ade2736b40800000000000000
+      internalID: 5432311940478601165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_78
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1312
+        width: 73
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb46c8a625cf3ff0800000000000000
+      internalID: -54107900674159691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_79
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1312
+        width: 76
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea2f5c1ab60aa020800000000000000
+      internalID: 2353701151664188136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_80
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1312
+        width: 96
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c11ea16b58f06d60800000000000000
+      internalID: 7881572419262878152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_81
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1312
+        width: 94
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 917f46a7b3d7b63a0800000000000000
+      internalID: -6671100728609278183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_82
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 1307
+        width: 95
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7064e4872a4065d0800000000000000
+      internalID: -3071373412272938882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_83
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 1307
+        width: 95
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b576a8287229041e0800000000000000
+      internalID: -2215610318274795685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_84
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1307
+        width: 92
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae8759d04e14facb0800000000000000
+      internalID: -4850585825918486294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_85
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 1307
+        width: 93
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08b0794e64912c50800000000000000
+      internalID: 6638750527120259082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_86
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1111
+        width: 73
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71c3126c7da84f60800000000000000
+      internalID: 8018849886266179963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_87
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1109
+        width: 81
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df229fa6f089cb2f0800000000000000
+      internalID: -955721828922744067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_88
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1108
+        width: 91
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ca0445d1ad4b620800000000000000
+      internalID: 2789093888751610933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_89
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1108
+        width: 98
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45593d4ed3ab6d440800000000000000
+      internalID: 4960356814590022996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_90
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1112
+        width: 96
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92645567bf6c3a10800000000000000
+      internalID: 1890508777058493083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_91
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1112
+        width: 97
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09115f0dd477dfb80800000000000000
+      internalID: -8359394157227863664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_92
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 1112
+        width: 99
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f9122a4a58ebb40800000000000000
+      internalID: 5457946740560862980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_93
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 1112
+        width: 100
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22595d2d3e3c097e0800000000000000
+      internalID: -1760692071039658718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_94
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 918
+        width: 85
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa384509be2f5eb0800000000000000
+      internalID: -4729009711523284233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_95
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 918
+        width: 86
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff18e21f6c75aa80800000000000000
+      internalID: -8456215908817821708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_96
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 918
+        width: 94
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32520e3363747470800000000000000
+      internalID: 8391458875777372733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_97
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 918
+        width: 89
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4953a6ef133d71ee0800000000000000
+      internalID: -1290330556543126124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_98
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 926
+        width: 98
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1856f72c548e8c20800000000000000
+      internalID: 3210649115704055836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_99
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 922
+        width: 93
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d568245bfeb0f250800000000000000
+      internalID: 5976486692178650576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_100
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 918
+        width: 99
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e428ff133d55e290800000000000000
+      internalID: -7861775100344261406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_101
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 920
+        width: 101
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2177497bf054bc230800000000000000
+      internalID: 3660095055975446290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_102
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 742
+        width: 90
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f396b5a6096c5690800000000000000
+      internalID: -7612093792892054544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_103
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 743
+        width: 98
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a8cc201296729f0800000000000000
+      internalID: -493310043671983576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_104
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 765
+        width: 83
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af0582672bf88270800000000000000
+      internalID: 8253122463731617696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_105
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 760
+        width: 80
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941d80fe6fb3321c0800000000000000
+      internalID: -4529710868446260919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_106
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 778
+        width: 44
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef13ff7316ac12c00800000000000000
+      internalID: 874202321586696702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_107
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 782
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022548b63f828d9d0800000000000000
+      internalID: -2749402546563689952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_108
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 747
+        width: 81
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e4d5fcfeaf74b40800000000000000
+      internalID: 5424580184074178179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_109
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 747
+        width: 90
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06701a3636cb7a5b0800000000000000
+      internalID: -5357106096674633888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_110
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 760
+        width: 82
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7fc21484541533e0800000000000000
+      internalID: -2074729700108611713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_111
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 755
+        width: 88
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c07bac4187c94ba0800000000000000
+      internalID: -6104128461772984122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_112
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 558
+        width: 83
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a348d5cc9f2db90800000000000000
+      internalID: -7218432596583892334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_113
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 559
+        width: 92
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4975629cc417a0b80800000000000000
+      internalID: -8427799178064275564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_114
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 561
+        width: 68
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d787717093b46f20800000000000000
+      internalID: 3415051850414000087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_115
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 561
+        width: 73
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70864c66ea46f1950800000000000000
+      internalID: 6421962293864851463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_116
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 685
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4b86d6cbd91cb80800000000000000
+      internalID: -8376240399317420892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_117
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 687
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 730b36721a2272db0800000000000000
+      internalID: -4816843200903532489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_118
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 562
+        width: 98
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ab6e6eb891f3180800000000000000
+      internalID: -9133553430619047371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_119
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 559
+        width: 99
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90137f7cec055760800000000000000
+      internalID: 7445871768817045658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_120
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 562
+        width: 77
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09470a6637eb84ae0800000000000000
+      internalID: -1564791467658939248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_121
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 559
+        width: 77
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f47cf58c927b300800000000000000
+      internalID: 267728643428929427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_122
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 702
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3548101db41b756c0800000000000000
+      internalID: -4154657192038792109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_123
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 705
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c7c7c768e2022f0800000000000000
+      internalID: -999747962127221710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 409
+        width: 78
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502c113e8d2a79d10800000000000000
+      internalID: 2132352000989446661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 426
+        width: 96
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc0e3972d0fe8a40800000000000000
+      internalID: 5372496192267488464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_2
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 427
+        width: 90
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ce189068043b570800000000000000
+      internalID: 8481193467698080847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_127
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 464
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb7d20ce28b5f7f0800000000000000
+      internalID: -579354466115027985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_128
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 481
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49fc8f280b0198020800000000000000
+      internalID: 2344423431320686484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_129
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 409
+        width: 82
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5baedc530010270800000000000000
+      internalID: 8214847426388473276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_3
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 409
+        width: 81
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22fd375ef101ae6b0800000000000000
+      internalID: -5266379085076766942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_131
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 400
+        width: 73
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ea3454bd43999b0800000000000000
+      internalID: -5072965388891607453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_132
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 418
+        width: 104
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a04cf2530253ef060800000000000000
+      internalID: 6989082084173136906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_133
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 418
+        width: 98
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23dd294975da99930800000000000000
+      internalID: 4150539123265035570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_134
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 455
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6606e6ecf5ae5790800000000000000
+      internalID: -7539406220547455378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_135
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 414
+        width: 84
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c91e7189b865cc70800000000000000
+      internalID: 8990707377065826755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_136
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 412
+        width: 82
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8250221d164dee0800000000000000
+      internalID: -1237256446773221199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_137
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 455
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdad35d3228542020800000000000000
+      internalID: 2316073012456315615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rest
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 240
+        width: 97
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6153d55c56b988630800000000000000
+      internalID: 3929561536285979926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_139
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 277
+        width: 55
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413549b8f59b735b0800000000000000
+      internalID: -5388634609110723820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_140
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 220
+        width: 79
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4663b41cf08d190800000000000000
+      internalID: -7937577020375538469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_141
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 234
+        width: 108
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d06fc0e5fbd0de0800000000000000
+      internalID: -1365224701358109373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_142
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 294
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474d4371857fcb7d0800000000000000
+      internalID: -2901172102214921100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_143
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 251
+        width: 94
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014857ebe7f949ad0800000000000000
+      internalID: -2696354910178016240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_144
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 231
+        width: 85
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b1af023b903a680800000000000000
+      internalID: -8745135386466313376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_145
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 233
+        width: 97
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca914145a6b7b800800000000000000
+      internalID: 628171493922151104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_146
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 301
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac3cb5c341234310800000000000000
+      internalID: 1387989685124218030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_147
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 197
+        width: 69
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c5c6e4e72c804e0800000000000000
+      internalID: -2015146985510904761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_148
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 198
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e761fc38f10cc3f00800000000000000
+      internalID: 1097963650759464574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_149
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 197
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a011f9206ec264a80800000000000000
+      internalID: -8483043481707671286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_150
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 198
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36cb7d4d162e6440800000000000000
+      internalID: 4930920549313136187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_151
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 197
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82496a1077ccf6f0800000000000000
+      internalID: -649424961954823539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_152
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 197
+        width: 36
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3986c287a6d34ff10800000000000000
+      internalID: 2302532836985170067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_153
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 197
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d20d5fcfeaf77e50800000000000000
+      internalID: 6807185269676901078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_154
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 33
+        width: 116
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d58dea3a7a2c78bb0800000000000000
+      internalID: -4933760841499617187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_155
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 197
+        width: 31
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1b59d9fc76fd800800000000000000
+      internalID: 639343813509624313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_156
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 197
+        width: 35
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290fe9cdcd86f60f0800000000000000
+      internalID: -1121562484388466542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_157
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 0
+        width: 231
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a09974d717f9930800000000000000
+      internalID: 4152162164344949282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_158
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 115
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51fd215528b5b8150800000000000000
+      internalID: 5875890754166120213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_159
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 0
+        width: 68
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b11c9749dbca8f30800000000000000
+      internalID: 4578696105245282743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_160
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 24
+        width: 27
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a4dc4fee80c9390800000000000000
+      internalID: -7810357831364949458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_161
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 33
+        width: 116
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7931126fa6b78e2f0800000000000000
+      internalID: -943368422608006249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_162
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 24
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3218f32f82137a0800000000000000
+      internalID: -6399288574604139575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_163
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 24
+        width: 27
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbbe587f0b2b60130800000000000000
+      internalID: 3532707430855470012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_164
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 33
+        width: 116
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f856fe6c1129e84f0800000000000000
+      internalID: -824561076712544881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_165
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 15
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85be3379ea2347790800000000000000
+      internalID: -7533340551241536680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_166
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 0
+        width: 67
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e709a79db078510800000000000000
+      internalID: 1551221625344523818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_167
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 24
+        width: 116
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b715570d227ae20800000000000000
+      internalID: 3361693925572180871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_168
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 0
+        width: 67
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb91c0da884d223b0800000000000000
+      internalID: -5538630908228396610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_169
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 24
+        width: 27
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9603eeb0c3659d60800000000000000
+      internalID: 7896327201151452831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_170
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 24
+        width: 117
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c31329906cf3c390800000000000000
+      internalID: -7799112637859294270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_171
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 24
+        width: 116
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78d6c3a996941910800000000000000
+      internalID: 1807234937104291962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_172
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 33
+        width: 116
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 932b60a3c4a0b44d0800000000000000
+      internalID: -3149412191908220359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_173
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 24
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b4322fd60f3ec40800000000000000
+      internalID: 5540536321600342800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_174
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 24
+        width: 35
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e4ff73219498be0800000000000000
+      internalID: -1474567060389409134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_175
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 24
+        width: 116
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3be1dea40efe2a70800000000000000
+      internalID: 8804253617622215485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_176
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 0
+        width: 67
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfab64b25643ea4b0800000000000000
+      internalID: -5427342891812472068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_177
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 24
+        width: 117
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f94967ecced47e20800000000000000
+      internalID: 3347545394680252921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_178
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 0
+        width: 67
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483046058e6e3df10800000000000000
+      internalID: 2293430520717247364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_179
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 0
+        width: 67
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016adf49237cb7490800000000000000
+      internalID: -7747379713898863088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_180
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 0
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef99bfea5f5cbbc0800000000000000
+      internalID: -3766030344214962208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_181
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 0
+        width: 52
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6409f680e4af357c0800000000000000
+      internalID: -4083645224038985658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_182
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 0
+        width: 66
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdfd506a5787298d0800000000000000
+      internalID: -2841075968225452069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_183
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 0
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6767ca1e07a71b1b0800000000000000
+      internalID: -5642594232877418890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpooksSpriteSheet_184
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 7
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c47012d5dd4581e0800000000000000
+      internalID: -2196263662525582137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
