@@ -75,7 +75,7 @@ public class PlayerMove : MonoBehaviour
         fireball.GetComponent<MoveFireball>().SetDirection(transform.localScale.x);
     }
 
-    public void MidAnimation(int boolSub)
+    public void MidAnimation()
     {
         isSwinging = false;
         isFiring = false;
@@ -111,10 +111,9 @@ public class PlayerMove : MonoBehaviour
     private void Jump_performed(bool buttonPressed)
     {
         if (!isSwinging && !isFiring)
-        {
             jump = buttonPressed;
-            animator.SetBool("jumping", jump);
-        }
+          
+        
     }
     private void Crouch_Perfromed()
     {
