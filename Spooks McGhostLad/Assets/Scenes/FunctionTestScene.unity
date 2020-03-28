@@ -325,7 +325,6 @@ GameObject:
   - component: {fileID: 723788382}
   - component: {fileID: 723788381}
   - component: {fileID: 723788380}
-  - component: {fileID: 723788385}
   - component: {fileID: 723788384}
   m_Layer: 10
   m_Name: EnemyPlantPrefab
@@ -347,7 +346,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 723788381}
-  rechargeTime: 10
+  rechargeTime: 3
   fireballSpawnPoint: {fileID: 171985449}
   fireballPrefab: {fileID: 4496696603782872536, guid: 57b8bfc178902c540923a11bffce0b98,
     type: 3}
@@ -429,7 +428,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 723788379}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.66, y: -0.12, z: 0}
+  m_LocalPosition: {x: -1.66, y: -0.215, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 171985449}
@@ -462,27 +461,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.52636254, y: 1.0131809}
   m_EdgeRadius: 0
---- !u!50 &723788385
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 723788379}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &768164297
 GameObject:
   m_ObjectHideFlags: 0

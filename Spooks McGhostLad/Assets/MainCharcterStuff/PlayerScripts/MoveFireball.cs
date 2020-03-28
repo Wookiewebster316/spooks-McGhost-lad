@@ -30,16 +30,21 @@ public class MoveFireball : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    private void OnDrawGizmos()
+
+    public void SetPlantFire(float dir)
     {
-        Gizmos.DrawWireSphere(transform.position, radius);
+        //needs to go the opposite direction as the player is drawn to face left instead of right
+        direction = dir * -1;
+        Vector3 theScale = transform.localScale;
+        theScale.x = dir;
+        transform.localScale = theScale;
     }
+
     public void SetDirection(float dir)
     {
         //needs to go the opposite direction as the player is drawn to face left instead of right
         direction = dir * -1;
     }
-    
     private void OnCollisionEnter2D(Collision2D collision)
     {
         Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, radius, hitmask);
@@ -49,7 +54,7 @@ public class MoveFireball : MonoBehaviour
             switch (hits[i].transform.tag)
             {
                 case "Enemy":
-                    Destroy(hits[i].gameObject);
+                    hits[i].gameObject.SendMessage("DestoryEnemy", SendMessageOptions.RequireReceiver);
                     Destroy(gameObject);
                     break;
 

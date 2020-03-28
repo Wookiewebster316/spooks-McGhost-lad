@@ -29,40 +29,59 @@ public class PlantScript : MonoBehaviour
             time = 0;
             animator.SetTrigger("plantAttack");
         }
+        FlipPlant();
     }
-    private void OnCollisionEnter2D(Collision2D collision)
+    private IEnumerator KillPlant(float waitTime)
     {
-        switch (collision.collider.tag)
+        Renderer render = GetComponent<Renderer>();
+       
+        Color colour = render.material.color;
+        float aplha = colour.a;
+        for (int ft = 0; ft < 5; ft++)
         {
-            case "Player":
-                Debug.Log("take player damage");
-                break;
-
-            case "Weapon":
-                Debug.Log("take plant damage");
-                break;
-            default:
-                break;
+            colour.a = 0;
+            render.material.color = colour;
+            yield return new WaitForSeconds(waitTime);
+            colour.a = aplha;
+            render.material.color = colour;
+            yield return new WaitForSeconds(waitTime);
         }
+        Destroy(gameObject);
+    }
+    public void DestoryEnemy()
+    {
+        animator.SetBool("dead", true);
+        Destroy(GetComponent<BoxCollider2D>());
+        StartCoroutine("KillPlant", 0.1f);
     }
 
     public void PlantFire()
     {
         GameObject fireball = Instantiate(fireballPrefab, fireballSpawnPoint.position, Quaternion.identity);
-        fireball.GetComponent<MoveFireball>().SetDirection(transform.localScale.x);
+        fireball.GetComponent<MoveFireball>().SetPlantFire(transform.localScale.x);
     }
 
+
+    private Vector3 Flip(float dir)
+    {
+        // Multiply the player's x local scale by -1.
+        Vector3 theScale = transform.localScale;
+        theScale.x = dir;
+        return theScale;
+    }
+    
     public void FlipPlant()
     {
         if (playerObject.transform.position.x < transform.position.x)
         {
-            //flip the scale
+            transform.localScale = Flip(1);
         }
-        if (playerObject.transform.position.x > transform.position.x)
+        else if (playerObject.transform.position.x > transform.position.x)
         {
-            //flip the scale
+            transform.localScale = Flip(-1);
         }
 
 
     }
+
 }

@@ -8,7 +8,7 @@ public class SwordScript : MonoBehaviour
     {
         if (collision.collider.tag == "Enemy")
         {
-            Destroy(collision.collider.gameObject);
+            collision.collider.gameObject.SendMessage("DestoryEnemy", SendMessageOptions.RequireReceiver);
         }
     }
 }
