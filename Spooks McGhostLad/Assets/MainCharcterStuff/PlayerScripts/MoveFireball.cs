@@ -12,7 +12,7 @@ public class MoveFireball : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Camera cam = Camera.main;
+       Camera cam = Camera.main;
         planes = GeometryUtility.CalculateFrustumPlanes(cam);
         objcollider = GetComponent<CircleCollider2D>();
     }

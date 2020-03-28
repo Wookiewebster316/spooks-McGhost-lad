@@ -65,7 +65,7 @@ public class CharacterController2D : MonoBehaviour
 	}
 
 
-	public void Move(float move, bool crouch, bool jump)
+	public void Move(float move, bool crouch, bool jump, Animator animator)
 	{
 		// If crouching, check to see if the character can stand up
 		if (!crouch)
@@ -131,9 +131,10 @@ public class CharacterController2D : MonoBehaviour
 		// If the player should jump...
 		if (m_Grounded && jump)
 		{
-			// Add a vertical force to the player.
+			// Add a vertical force to the player. could probably add the jump animation to here too
 			m_Grounded = false;
 			m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
+			animator.SetTrigger("jump");
 		}
 	}
 
