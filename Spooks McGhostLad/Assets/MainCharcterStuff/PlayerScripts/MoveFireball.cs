@@ -36,10 +36,21 @@ public class MoveFireball : MonoBehaviour
     
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.tag == "Enemy")
+
+        switch (collision.collider.tag)
         {
-            Destroy(collision.collider.gameObject);
-            Destroy(gameObject);
+            case "Enemy":
+                Destroy(collision.collider.gameObject);
+                Destroy(gameObject);
+                break;
+
+            case "Player":
+                Destroy(gameObject);
+                break;
+
+            default:
+                break;
         }
+        
     }
 }
