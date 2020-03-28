@@ -8,6 +8,9 @@ public class MoveFireball : MonoBehaviour
     public float fireBallSpeed = 5;
     private Plane[] planes;
     private CircleCollider2D objcollider;
+    [SerializeField] LayerMask hitmask;
+
+    public float radius;
    
     // Start is called before the first frame update
     void Start()
@@ -27,7 +30,10 @@ public class MoveFireball : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawWireSphere(transform.position, radius);
+    }
     public void SetDirection(float dir)
     {
         //needs to go the opposite direction as the player is drawn to face left instead of right
@@ -36,25 +42,30 @@ public class MoveFireball : MonoBehaviour
     
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, radius, hitmask);
 
-        switch (collision.collider.tag)
+        for (int i = 0; i < hits.Length; i++)
         {
-            case "Enemy":
-                Destroy(collision.collider.gameObject);
-                Destroy(gameObject);
-                break;
+            switch (hits[i].transform.tag)
+            {
+                case "Enemy":
+                    Destroy(hits[i].gameObject);
+                    Destroy(gameObject);
+                    break;
 
-            case "Player":
-                Destroy(gameObject);
-                break;
+                case "Player":
+                    Destroy(gameObject);
+                    break;
 
-            case "Sheild":
-                Destroy(gameObject);
-                break;
+                case "Sheild":
+                    Destroy(gameObject);
+                    break;
 
-            default:
-                break;
+                default:
+                    break;
+            }
         }
-        
+
+
     }
 }

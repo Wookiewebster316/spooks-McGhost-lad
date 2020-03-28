@@ -327,9 +327,9 @@ GameObject:
   - component: {fileID: 723788380}
   - component: {fileID: 723788385}
   - component: {fileID: 723788384}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: EnemyPlantPrefab
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1052,6 +1052,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 161536065450311664, guid: b750e43aa18bb5e46ab2b5d4424372f6,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 161536066674600182, guid: b750e43aa18bb5e46ab2b5d4424372f6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1110,7 +1115,7 @@ PrefabInstance:
     - target: {fileID: 161536066674600182, guid: b750e43aa18bb5e46ab2b5d4424372f6,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 161536066674600182, guid: b750e43aa18bb5e46ab2b5d4424372f6,
         type: 3}

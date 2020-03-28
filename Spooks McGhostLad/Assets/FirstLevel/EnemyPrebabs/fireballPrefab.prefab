@@ -117,6 +117,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fireBallSpeed: 2
+  hitmask:
+    serializedVersion: 2
+    m_Bits: 2560
+  radius: 0.21
 --- !u!58 &467180845703920205
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -130,6 +134,6 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.109669715, y: 0}
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.15699694
+  m_Radius: 0.17
