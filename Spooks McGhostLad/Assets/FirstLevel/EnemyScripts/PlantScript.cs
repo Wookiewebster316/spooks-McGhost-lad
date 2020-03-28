@@ -8,7 +8,7 @@ public class PlantScript : MonoBehaviour
 
     private float time;
 
-    [SerializeField] private float rechargeTime = 5f;
+    [SerializeField] private float rechargeTime = 3f;
     [SerializeField] private Transform fireballSpawnPoint;
     [SerializeField] private GameObject fireballPrefab;
     private GameObject playerObject;
@@ -28,6 +28,21 @@ public class PlantScript : MonoBehaviour
         {
             time = 0;
             animator.SetTrigger("plantAttack");
+        }
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        switch (collision.collider.tag)
+        {
+            case "Player":
+                Debug.Log("take player damage");
+                break;
+
+            case "Weapon":
+                Debug.Log("take plant damage");
+                break;
+            default:
+                break;
         }
     }
 

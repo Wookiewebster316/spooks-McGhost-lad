@@ -48,6 +48,10 @@ public class MoveFireball : MonoBehaviour
                 Destroy(gameObject);
                 break;
 
+            case "Sheild":
+                Destroy(gameObject);
+                break;
+
             default:
                 break;
         }
